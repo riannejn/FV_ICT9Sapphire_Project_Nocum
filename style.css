@@ -1,0 +1,37 @@
+                                                .container1 {
+    background-color: #fabdd6;
+    margin-top: 100px;
+    width: 700px;
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 50px;
+}
+.container1 h1{
+    color: black;
+}
+.container1 h3{
+    color: black;
+}
+.container1 label{
+    color: black;
+}
+.row1{
+    margin-top: 50px;
+}
+.row2{
+    margin-top: 50px;
+}
+.col2b{
+    margin-top: 20px;
+}
+.row3{
+    margin-top: 50px;
+}
+.row3 button{
+    width: 100%;
+    border-radius: 20px;
+    color: #f35797;
+}
+.row4{
+    margin-top: 15px;
+}

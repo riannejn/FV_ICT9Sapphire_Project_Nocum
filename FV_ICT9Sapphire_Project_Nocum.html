@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Project</title>
+</head>
+<body>
+    
+
+
+<div class="container container1 form-control">
+
+    <h1 class="text-center">𝔘𝔫𝔦𝔱 ℭ𝔬𝔫𝔳𝔢𝔯𝔱𝔢𝔯</h1>
+
+    <div class="row row1">
+
+        <label>
+            <h3>𝚜𝚎𝚕𝚎𝚌𝚝 𝚖𝚎𝚊𝚜𝚞𝚛𝚎𝚖𝚎𝚗𝚝</h3>
+        </label>
+        
+        <select onchange="location = this.options[this.selectedIndex].value;" class="form-select form-select-lg" aria-label=".form-select-lg example">
+
+            <option value="index.html" selected>𝗅𝖾𝗇𝗀𝗍𝗁</option>
+          
+
+        </select>
+
+    </div>
+    
+    <div class="row align-items-center row2">
+
+        <div class="col-md-5">
+            
+            <label for="">
+                𝚝𝚢𝚙𝚎 𝚍𝚎𝚜𝚒𝚛𝚎𝚍 𝚟𝚊𝚕𝚞𝚎 
+            </label>
+
+            <input type="number" class="form-control" name="millimeter" placeholder="𝗆𝗂𝗅𝗅𝗂𝗆𝖾𝗍𝖾𝗋">
+            
+        </div>
+
+        <div class="col-md-2 col2">
+            
+            <h1 class="text-center">=</h1>
+            
+        </div>
+
+        <div class="col-md-5">
+            
+            <label for="">
+                  𝚝𝚑𝚎 𝚌𝚘𝚗𝚟𝚎𝚛𝚝𝚎𝚍 𝚟𝚊𝚕𝚞𝚎 𝚒𝚜 : 
+            </label>
+            
+            <input type="number" class="form-control" name="output" disabled>
+            
+        </div>
+
+    </div>
+
+    <div class="row align-items-center row3">
+        
+        <div class="col-md-4">
+            <button class="btn" onclick="centimeter()">𝖼𝗈𝗇𝗏𝖾𝗋𝗍 𝗍𝗈 𝖼𝖾𝗇𝗍𝗂𝗆𝖾𝗍𝖾𝗋𝗌</button>
+        </div>
+
+        <div class="col-md-4">
+            <button class="btn" onclick="meter()">𝖼𝗈𝗇𝗏𝖾𝗋𝗍 𝗍𝗈 𝗆𝖾𝗍𝖾𝗋𝗌</button>
+        </div>
+
+        <div class="col-md-4">
+            <button class="btn" onclick="kilometer()">𝖼𝗈𝗇𝗏𝖾𝗋𝗍 𝗍𝗈 𝗄𝗂𝗅𝗈𝗆𝖾𝗍𝖾𝗋𝗌</button>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+<script src="main.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+</html>
